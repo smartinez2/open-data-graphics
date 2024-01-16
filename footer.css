@@ -1,0 +1,19 @@
+.footer-background {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #13294b;
+  }
+
+  .logo, .nav {
+    margin-bottom: 10px;
+  }
+
+  .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  li a {
+    color:#ffffff;
+  }

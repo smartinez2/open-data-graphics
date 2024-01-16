@@ -1,0 +1,44 @@
+.second-tier {
+    margin-bottom: 0px;
+    background-color: #F2EFEA;
+  }
+  
+  .site-header .navbar-header img {
+    vertical-align: middle;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  li a{
+    color:#4c4c4c;
+  }
+  
+  li a:hover{
+    color:#13294b;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .first-tier {
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 498px) {
+    .navbar-brand {
+      padding: 0px;
+    }
+  }
+  
+  .navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+  }
+  
+  .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  
