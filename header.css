@@ -34,10 +34,32 @@ li a:focus{
   border-bottom: 5px solid #13294b;
 }
 
+button.navbar-toggle {
+  border-color:#13294b !important;
+}
+
+button.navbar-toggle .icon-bar{
+  background-color:#13294b !important;
+}
 
 @media (max-width: 768px) {
   .first-tier {
     height: 100px;
+  }
+
+  li a:hover{
+    color:white;
+    border-bottom:none;
+    background-color:gray !important;
+  }
+
+  li a:focus{
+    border-bottom:none;
+    background-color:none;
+  }
+
+  li a.dropdown-item{
+    color:#4c4c4c !important;
   }
 }
 

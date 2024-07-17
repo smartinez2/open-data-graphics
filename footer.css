@@ -1,19 +1,37 @@
 .footer-background {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #13294b;
-  }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #13294b;
+}
 
-  .logo, .nav {
-    margin-bottom: 10px;
-  }
+.logo,
+.nav {
+  margin-bottom: 10px;
+}
 
+.nav-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-pills a {
+  color: #ffffff;
+  border-bottom: 5px solid transparent;
+  /* Add this line */
+}
+
+.nav-pills a:hover {
+  background-image: none;
+  border-bottom: 5px solid #ffffff;
+}
+
+li a {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
   .nav-pills {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    justify-content: left;
   }
-  
-  li a {
-    color:#ffffff;
-  }
+}
