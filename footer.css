@@ -4,34 +4,32 @@
   background-color: #13294b;
 }
 
-.logo,
-.nav {
+.logo, .nav {
   margin-bottom: 10px;
 }
 
 .nav-pills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav-pills a {
-  color: #ffffff;
-  border-bottom: 5px solid transparent;
-  /* Add this line */
+  color:#ffffff;
+  border-bottom: 5px solid transparent; /* Add this line */
 }
 
 .nav-pills a:hover {
-  background-image: none;
+  background-image:none;
   border-bottom: 5px solid #ffffff;
 }
 
 li a {
-  color: #ffffff;
+  color:#ffffff;
 }
 
 @media only screen and (max-width: 768px) {
-  .nav-pills {
-    justify-content: left;
-  }
+.nav-pills{
+  justify-content:left;
+}
 }
